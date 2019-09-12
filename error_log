@@ -1,0 +1,2 @@
+[10-Jul-2019 20:01:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/adminbiowasi/public_html/enviar3.php:82) in /home/adminbiowasi/public_html/enviar3.php on line 115
+[10-Jul-2019 20:02:58 UTC] PHP Fatal error:  Call to undefined function string() in /home/adminbiowasi/public_html/enviar3.php on line 64

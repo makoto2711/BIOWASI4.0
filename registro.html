@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+			<meta charset="UTF-8">	
+			<title>Formulario de registro</title>	
+			<link rel="stylesheet" href="assets/css/form.css">	
+	</head>
+	<body>
+		 <h1>Formulario del Registro</h1>	
+		 <form action="registrar.php" method="post" class="form-register">
+		 		<h2 class="form__titulo">CREA UNA CUENTA</h2>
+			   <div class="contenedor-inputs">
+			   		<input type="text" name="nombre" placeholder="Nombre" class="input-48" required>
+			   		<input type="text" name="apellidos" placeholder="Apellidos" class="input-48" required>
+			   		<input type="email" name="correo" placeholder="Correo" class="input-100" required>
+			   		<input type="text" name="usuario" placeholder="Usuario" class="input-48" required>
+			   		<input type="password" name="clave" placeholder="Contraseña" class="input-48" required>
+			   		<input type="text" name="telefono" placeholder="Teléfono" class="input-100" required>
+			   		<input type="submit" value="Registrar" class="btn-enviar">
+					<p class="form__link">Ya tienes un cuenta? <a href="#">Ingresa aqui</a></p>
+			   </div>
+		 </form>
+
+
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+51 980508388", // WhatsApp number
+            call_to_action: "Envíenos un mensaje", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+
+
+
+	</body>
+</html>
